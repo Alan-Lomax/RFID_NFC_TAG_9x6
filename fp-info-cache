@@ -1,4 +1,4 @@
-26343722434403213
+26345480652294504
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -95955,6 +95955,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SL2S2602FTBX
+SL2S2602FTBX
+SL2S2602FTBX-4
+Integrated Circuit
+0
+3
+3
 SSD1306 Library
 Adafruit_SSD1306
 Adafruit SSD1306 OLED 1.3 inch 128x64 I2C & SPI https://learn.adafruit.com/monochrome-oled-breakouts/downloads
