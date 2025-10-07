@@ -113,32 +113,7 @@
   },
   "open_jobsets": [],
   "project": {
-    "files": [
-      {
-        "name": "RFID_NFC_TAG_9x6.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      },
-      {
-        "name": "RFID_NFC_TAG_9x6.kicad_sch",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": -8,
-          "pos_y": -8,
-          "size_x": 1936,
-          "size_y": 1048
-        }
-      }
-    ]
+    "files": []
   },
   "schematic": {
     "selection_filter": {
