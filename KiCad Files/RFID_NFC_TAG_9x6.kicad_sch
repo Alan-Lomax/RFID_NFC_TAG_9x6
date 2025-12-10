@@ -573,48 +573,22 @@
 		)
 	)
 	(junction
-		(at 170.18 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06c16a7c-97b9-47ff-b59b-c7a44975b361")
-	)
-	(junction
 		(at 170.18 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "350ca0db-18e5-46cb-87ac-c086f327648c")
 	)
 	(junction
-		(at 170.18 99.06)
+		(at 170.18 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "40391e89-a64d-47e9-9a38-bb6cf4161080")
+		(uuid "3c3f47f6-a951-42c5-8dbd-805a144aa963")
 	)
 	(junction
 		(at 170.18 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "daa0facf-6d11-40a7-b819-ab6556df6869")
-	)
-	(wire
-		(pts
-			(xy 170.18 60.96) (xy 170.18 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0492635f-a304-4845-aa26-09181f7a5509")
-	)
-	(wire
-		(pts
-			(xy 170.18 99.06) (xy 170.18 100.965)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21cc2ab8-8ff5-4f52-954e-a0dfbcd27450")
 	)
 	(wire
 		(pts
@@ -628,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 58.42) (xy 170.18 60.96)
+			(xy 170.18 58.42) (xy 170.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -658,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 172.72 60.96)
+			(xy 170.18 58.42) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -678,16 +652,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.965) (xy 132.08 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93214352-5e1c-4370-8dac-2f7ed419516c")
-	)
-	(wire
-		(pts
 			(xy 170.18 83.82) (xy 170.18 99.06)
 		)
 		(stroke
@@ -698,7 +662,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 100.965) (xy 170.18 100.965)
+			(xy 132.08 99.06) (xy 170.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -728,16 +692,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 99.06) (xy 173.355 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7a5a2a3-a04c-4575-9618-31b6664a0af7")
-	)
-	(wire
-		(pts
 			(xy 190.5 76.2) (xy 190.5 83.82)
 		)
 		(stroke
@@ -748,7 +702,7 @@
 	)
 	(global_label "ANT_LB"
 		(shape passive)
-		(at 172.72 99.06 0)
+		(at 170.18 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -758,7 +712,7 @@
 		)
 		(uuid "07b98758-4566-4c88-af60-d26ca0eb55e9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2463 99.06 0)
+			(at 178.7063 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -770,7 +724,7 @@
 	)
 	(global_label "ANT_LA"
 		(shape passive)
-		(at 172.72 60.96 0)
+		(at 172.72 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -780,7 +734,7 @@
 		)
 		(uuid "4c39672c-5340-428c-b369-eda000f20054")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.0649 60.96 0)
+			(at 181.0649 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -878,7 +832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "43pF"
+		(property "Value" "51pF"
 			(at 173.99 80.0099 0)
 			(effects
 				(font
@@ -957,7 +911,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "XSON3_SL2S2602_NXP"
+		(property "Footprint" "NFC Tag Chip:XSON3_SL2S2602_NXP"
 			(at 132.08 99.06 0)
 			(effects
 				(font
